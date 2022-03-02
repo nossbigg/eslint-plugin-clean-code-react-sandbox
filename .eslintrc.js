@@ -8,5 +8,6 @@ module.exports = {
   rules: {
     "@nossbigg/clean-code-react/max-jsx-lines": [2],
     "@nossbigg/clean-code-react/max-jsx-expression-lines": [2],
+    "@nossbigg/clean-code-react/max-jsx-props": [2],
   },
 };
