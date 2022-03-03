@@ -8,6 +8,8 @@ import React, {
   SFC,
   VoidFunctionComponent,
   VFC,
+  useEffect,
+  useState,
 } from "react";
 
 // inspired by: https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/function-component-definition.md
@@ -47,6 +49,7 @@ const arrowFunctionComponent = () => {
   };
 
   const MyFunctionComponent: FunctionComponent = () => {
+    useState();
     return <div />;
   };
 
