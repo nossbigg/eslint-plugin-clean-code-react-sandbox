@@ -11,5 +11,8 @@ module.exports = {
     "@nossbigg/clean-code-react/max-jsx-props": [2],
     "@nossbigg/clean-code-react/component-prop-typedef-name": [2],
     "@nossbigg/clean-code-react/no-component-prop-inline-typedef": [2],
+    "@nossbigg/clean-code-react/no-other-component-in-large-component-file": [
+      2,
+    ],
   },
 };
