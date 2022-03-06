@@ -14,5 +14,6 @@ module.exports = {
     "@nossbigg/clean-code-react/no-other-component-in-large-component-file": [
       2,
     ],
+    "@nossbigg/clean-code-react/no-typedefs-in-large-component-file": [2],
   },
 };
