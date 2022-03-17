@@ -18,5 +18,6 @@ module.exports = {
     "@nossbigg/clean-code-react/max-hooks-in-custom-hook": [2],
     "@nossbigg/clean-code-react/no-external-fn-definition-in-large-component-file":
       [2],
+    "@nossbigg/clean-code-react/no-jsx-inline-style-prop": [2],
   },
 };
