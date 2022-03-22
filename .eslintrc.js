@@ -4,8 +4,19 @@ module.exports = {
   root: true,
   parser: "@typescript-eslint/parser",
   plugins: ["@typescript-eslint", "@nossbigg/eslint-plugin-clean-code-react"],
-  extends: ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
+  extends: [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+  ],
   rules: {
+    "react/function-component-definition": [
+      "error",
+      {
+        namedComponents: "arrow-function",
+        unnamedComponents: "arrow-function",
+      },
+    ],
     "@nossbigg/clean-code-react/max-jsx-lines": ["error", { maxJsxLines: 50 }],
     "@nossbigg/clean-code-react/max-jsx-expression-lines": "error",
     "@nossbigg/clean-code-react/max-jsx-props": "error",
