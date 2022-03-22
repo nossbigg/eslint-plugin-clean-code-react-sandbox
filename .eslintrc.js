@@ -6,19 +6,18 @@ module.exports = {
   plugins: ["@typescript-eslint", "@nossbigg/eslint-plugin-clean-code-react"],
   extends: ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
   rules: {
-    "@nossbigg/clean-code-react/max-jsx-lines": [2],
-    "@nossbigg/clean-code-react/max-jsx-expression-lines": [2],
-    "@nossbigg/clean-code-react/max-jsx-props": [2],
-    "@nossbigg/clean-code-react/component-prop-typedef-name": [2],
-    "@nossbigg/clean-code-react/no-component-prop-inline-typedef": [2],
-    "@nossbigg/clean-code-react/no-other-component-in-large-component-file": [
-      2,
-    ],
-    "@nossbigg/clean-code-react/no-typedefs-in-large-component-file": [2],
-    "@nossbigg/clean-code-react/max-hooks-in-custom-hook": [2],
+    "@nossbigg/clean-code-react/max-jsx-lines": ["error", { maxJsxLines: 50 }],
+    "@nossbigg/clean-code-react/max-jsx-expression-lines": "error",
+    "@nossbigg/clean-code-react/max-jsx-props": "error",
+    "@nossbigg/clean-code-react/component-prop-typedef-name": "error",
+    "@nossbigg/clean-code-react/no-component-prop-inline-typedef": "error",
+    "@nossbigg/clean-code-react/no-other-component-in-large-component-file":
+      "error",
+    "@nossbigg/clean-code-react/no-typedefs-in-large-component-file": "error",
+    "@nossbigg/clean-code-react/max-hooks-in-custom-hook": "error",
     "@nossbigg/clean-code-react/no-external-fn-definition-in-large-component-file":
-      [2],
-    "@nossbigg/clean-code-react/no-jsx-inline-style-prop": [2],
+      "error",
+    "@nossbigg/clean-code-react/no-jsx-inline-style-prop": "error",
   },
   settings: {
     "@nossbigg/eslint-plugin-clean-code-react": {
