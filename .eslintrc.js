@@ -20,4 +20,9 @@ module.exports = {
       [2],
     "@nossbigg/clean-code-react/no-jsx-inline-style-prop": [2],
   },
+  settings: {
+    "@nossbigg/eslint-plugin-clean-code-react": {
+      largeComponentLength: 40,
+    },
+  },
 };
