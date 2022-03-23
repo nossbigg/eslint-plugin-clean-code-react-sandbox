@@ -3,11 +3,12 @@
 module.exports = {
   root: true,
   parser: "@typescript-eslint/parser",
-  plugins: ["@typescript-eslint", "@nossbigg/eslint-plugin-clean-code-react"],
+  plugins: ["@typescript-eslint", "@nossbigg/clean-code-react"],
   extends: [
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
+    "plugin:@nossbigg/clean-code-react/recommended",
   ],
   rules: {
     "react/function-component-definition": [
