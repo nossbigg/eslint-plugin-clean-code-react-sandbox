@@ -33,6 +33,7 @@ module.exports = {
   },
   settings: {
     "@nossbigg/eslint-plugin-clean-code-react": {
+      jsCompatMode: false,
       largeComponentLength: 40,
     },
   },
