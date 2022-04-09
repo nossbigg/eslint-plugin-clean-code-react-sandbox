@@ -32,6 +32,10 @@ module.exports = {
     "@nossbigg/clean-code-react/no-jsx-inline-style-prop": "error",
     "@nossbigg/clean-code-react/no-nested-type-literal-in-component-prop":
       "error",
+    "@nossbigg/clean-code-react/max-properties-in-component-prop": [
+      "error",
+      { maxProps: 8 },
+    ],
   },
   settings: {
     "@nossbigg/eslint-plugin-clean-code-react": {
