@@ -30,6 +30,8 @@ module.exports = {
     "@nossbigg/clean-code-react/no-external-fn-definition-in-large-component-file":
       "error",
     "@nossbigg/clean-code-react/no-jsx-inline-style-prop": "error",
+    "@nossbigg/clean-code-react/no-nested-type-literal-in-component-prop":
+      "error",
   },
   settings: {
     "@nossbigg/eslint-plugin-clean-code-react": {
