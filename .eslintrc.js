@@ -36,6 +36,9 @@ module.exports = {
       "error",
       { maxProps: 8 },
     ],
+    "@nossbigg/clean-code-react/no-fn-component-props-inline-destructure": [
+      "error",
+    ],
   },
   settings: {
     "@nossbigg/eslint-plugin-clean-code-react": {
